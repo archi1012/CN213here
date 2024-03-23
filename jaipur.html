@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>jaipur</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto'>
+<link rel='stylesheet' href='https://npmcdn.com/flickity@2/dist/flickity.css'>
+<link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'><link rel="stylesheet" href="./jaipur.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+        <defs>
+            <symbol viewBox="0 0 65.6 45.8" id="nav-trigger">
+                <path fill="#ffffff" d="M27.7 45.8H4.9c-2.7 0-4.9-2.2-4.9-4.9S2.2 36 4.9 36h22.8c2.7 0 4.9 2.2 4.9 4.9 0 2.6-2.2 4.9-4.9 4.9zM60.7 27.9H4.9C2.2 27.9 0 25.7 0 23c0-2.8 2.2-5 4.9-5h55.7c2.7 0 4.9 2.2 4.9 4.9.1 2.8-2.1 5-4.8 5zM60.7 9.9H4.9C2.2 9.9 0 7.7 0 4.9 0 2.2 2.2 0 4.9 0h55.7c2.7 0 4.9 2.2 4.9 4.9.1 2.8-2.1 5-4.8 5z"/>
+            </symbol>
+            <symbol viewBox="0 0 20.1 13.1" id="next">
+                <path fill="#ffffff" d="M18.6 8.1H1.4C.6 8.1 0 7.4 0 6.7v-.2C0 5.7.6 5 1.4 5h17.2c.8 0 1.4.7 1.4 1.5v.2c0 .7-.6 1.4-1.4 1.4z"/>
+                <path fill="#ffffff" d="M17.8 7.9L9.9 2.8c-.7-.4-.9-1.3-.4-2l.1-.2c.4-.7 1.3-.9 2-.4l7.9 5.1c.7.4.9 1.3.4 2l-.1.2c-.4.6-1.3.8-2 .4z"/>
+                <path fill="#ffffff" d="M11.5 12.9l7.9-5.1c.7-.4.9-1.3.4-2l-.1-.2c-.4-.7-1.3-.9-2-.4l-7.9 5.1c-.7.4-.9 1.3-.4 2l.1.2c.4.6 1.3.8 2 .4z"/>
+            </symbol>
+            <symbol viewBox="0 0 42 42" id="play">
+                <g>
+                  <circle opacity="0.8" fill="#ffffff" cx="21" cy="21" r="21"/>
+                  <path fill="#442d44" d="M26.1 21l-8 5V16"/>
+                </g>
+            </symbol>
+            <symbol viewBox="0 0 20 18" id="heart">
+                <path fill="#442d44" d="M14.4 0C12.6 0 11 .9 10 2.3 9 .9 7.4 0 5.6 0 2.5 0 0 2.5 0 5.6 0 10 10 18 10 18s10-8 10-12.4C20 2.5 17.5 0 14.4 0z"/>
+            </symbol>
+            <symbol viewBox="0 0 384 320.1" id="share">
+                <path fill="#442d44" d="M288 281.9H38.4V102.2h57.5S110 82.5 138.6 64H19.2C8.6 64 0 72.5 0 83.1V301c0 10.5 8.6 19.1 19.2 19.1h288c10.6 0 19.2-8.5 19.2-19.1V192L288 223.4v58.5zM256 128v63.9l128-95.5L256 0v59.7C101.2 59.7 96 224 96 224c43.8-71.5 76-96 160-96z"/>
+            </symbol>
+        </defs>
+    </svg>
+    <div class="container">
+    	<article class="destination">
+    		<div class="destination-locale">
+    			<header>
+                    <div class="destination-card">
+                        <span class="destination-number">02</span>
+                        <span class="destination-country">India</span>
+                    </div>
+                    <div class="destination-title">
+                        <h1>Jaipur</h1>
+                        <span class="meta">
+                          Pink city 
+                        </span>
+                    </div>
+    			</header>
+    		</div>
+    		<div class="destination-details">
+                <fieldset class="rating">
+                    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                </fieldset>
+                <div class="carousel">
+                    <div class="carousel-cell"><img src="" alt=""></div>
+                    <div class="carousel-cell"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/25776/2.jpg" alt=""></div>
+                    <div class="carousel-cell"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/25776/3.jpg" alt=""></div>
+                    <div class="carousel-cell"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/25776/4.jpg" alt=""></div>
+                    <div class="carousel-cell"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/25776/5.jpg" alt=""></div>
+                </div>
+    			<h2>Hawa Mahal</h2>
+                <div class="gutter">
+        			<p>  Hawa Mahal, "Palace of Winds," is a famous architectural marvel in Jaipur, India. Built-in 1799 by Maharaja Sawai Pratap Singh, it boasts a distinctive pink façade with intricate latticework. Designed for royal women to observe street festivals discreetly, its five floors offer a unique blend of beauty and functionality.                       </p>
+        			
+        			<ul class="options">
+        			    <li><a href="#" class="more">View All Routes</a></li>
+                        <li>
+                            <a href="#" class="like"><svg title="Like"><use xlink:href="#heart"></use></svg></a>
+                            <a href="#" class="share"><svg title="share"><use xlink:href="#share"></use></svg></a>
+                        </li>
+        			</ul>
+                </div>
+                <h2>Jantar Mantar</h2>
+                <div class="gutter">
+        			<p>Jantar Mantar, an ancient astronomical observatory in Jaipur, India, was built by Maharaja Jai Singh II in the early 18th century. Its collection of massive instruments, including sundials and celestial devices, were used for accurate timekeeping, tracking celestial bodies, and predicting eclipses. Today, it stands as a UNESCO World Heritage Site.</p>        30 B
+                        </p>
+        			
+        			<ul class="options">
+        			    <li><a href="#" class="more">View All Routes</a></li>
+                        <li>
+                            <a href="#" class="like"><svg title="Like"><use xlink:href="#heart"></use></svg></a>
+                            <a href="#" class="share"><svg title="share"><use xlink:href="#share"></use></svg></a>
+                        </li>
+        			</ul>
+                </div>
+                <h2>Ajmer Fort</h2>
+                <div class="gutter">
+        			<p>Amer Fort, a majestic fortress in Jaipur, Rajasthan, stands as a symbol of Rajput grandeur and architecture. Built in the late 16th century by Raja Man Singh I, it blends Hindu and Mughal architectural styles. With its intricate palaces, stunning courtyards, and panoramic views, it captivates visitors with its historical splendor.
+                        </p>
+        			
+        			<ul class="options">
+        			    <li><a href="#" class="more">View All Routes</a></li>
+                        <li>
+                            <a href="#" class="like"><svg title="Like"><use xlink:href="#heart"></use></svg></a>
+                            <a href="#" class="share"><svg title="share"><use xlink:href="#share"></use></svg></a>
+                        </li>
+        			</ul>
+                </div>
+                <h2>City Palace</h2>
+                <div class="gutter">
+        			<p> City Palace, a magnificent complex in Jaipur, Rajasthan, reflects the grandeur of Rajput and Mughal architecture. Built in the 18th century by Maharaja Sawai Jai Singh II, it comprises courtyards, gardens, and palaces like Chandra Mahal and Mubarak Mahal. Today, it serves as a museum showcasing royal artifacts and history.
+                        </p>
+        			
+        			<ul class="options">
+        			    <li><a href="#" class="more">View All Routes</a></li>
+                        <li>
+                            <a href="#" class="like"><svg title="Like"><use xlink:href="#heart"></use></svg></a>
+                            <a href="#" class="share"><svg title="share"><use xlink:href="#share"></use></svg></a>
+                        </li>
+        			</ul>
+                </div>
+                <h2>Naharagh Fort</h2>
+                <div class="gutter">
+        			<p>Nahargarh Fort, an 18th-century marvel in Jaipur, Rajasthan, was constructed by Maharaja Sawai Jai Singh II. Sitting atop the Aravalli hills, it served as a defensive bastion. With intricate palaces and stunning vistas of Jaipur, it remains a testament to Rajput architecture and offers a glimpse into the region's rich history.
+                        </p>
+        			
+        			<ul class="options">
+        			    <li><a href="#" class="more">View All Routes</a></li>
+                        <li>
+                            <a href="#" class="like"><svg title="Like"><use xlink:href="#heart"></use></svg></a>
+                            <a href="#" class="share"><svg title="share"><use xlink:href="#share"></use></svg></a>
+                        </li>
+        			</ul>
+                </div>
+                
+                
+                <a href="#" class="video"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/25776/tre-cime-video.jpg" alt=""> <svg title="Play video"><use xlink:href="#play"></use></a>
+    		</div>
+    		<div class="nav nav--nested">
+    		    <button class="toggle"><svg title="Toggle navigation"><use xlink:href="#nav-trigger"></use></svg></button>
+                <button class="next"><svg title="Next"><use xlink:href="#next"></use></svg></button>
+    		</div>
+    	</article>
+    </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://npmcdn.com/flickity@2/dist/flickity.pkgd.js'></script><script  src="./jaipur.js"></script>
+
+</body>
+</html>
